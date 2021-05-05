@@ -9,10 +9,9 @@ public class factWhile {
         int n = sc.nextInt();
         int i =1;
         int fact = 1;
-        while (n!=0) {
+        while (i<=n) {
             fact = fact *i;
             i++;
-            n--;
         }
         System.out.println(fact);
     }
