@@ -7,6 +7,8 @@ public class Main {
         int a1; // valid
         int abc; // valid
         int a_$10; // valid
+        //int @ak_10; invalid
+        // int _a1; invalid
 
         int num1 = 10;
         int num2 = 20;
