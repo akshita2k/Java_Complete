@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+// how to print literals in java
+
 
         byte age = 34;
         char a = 'A';
