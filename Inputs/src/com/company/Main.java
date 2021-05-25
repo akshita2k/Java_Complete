@@ -15,12 +15,15 @@ public class Main {
         // System.out.println(sc.hasNextInt(usn));
         // checks if the usn entered is an int or not
 
+        //enter first name
         System.out.println("Enter your first name");
         String fname = sc.next();
 
+        //enter the last name
         System.out.println("Enter your last name");
         String lname = sc.next();
 
+        //enter the email
         System.out.println("Enter your email");
         String email = sc.next();
 
