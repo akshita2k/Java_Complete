@@ -17,6 +17,7 @@ public class varargs {
     public static void main(String[] args) {
         System.out.println("Welcome to varAgrs tutorial");
         //System.out.println(sum(4,5));
+        System.out.println("The sum of nothing is:" + sum());
         System.out.println(sum(4,5,6));
     }
 }
