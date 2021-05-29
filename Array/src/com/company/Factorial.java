@@ -8,8 +8,13 @@ public class Factorial {
         // 1. For loop
         // 2. Recursion
         /* fact = 1;
-        for (int i=1; i<=n; i++) {
-            fact= fact*n;
+        if (n==0||n==1) {
+            return 1;
+        }
+        else {
+            prod=1;
+            for (int i=1; i<=n; i++) {
+                prod *= i;
         }
         return fact */
 
