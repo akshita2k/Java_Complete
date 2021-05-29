@@ -4,8 +4,8 @@ import java.util.*;
 public class Factorial {
     static int  factorial(int n) {
         int fact;
-        // can be done in two ways
-        // 1. For loop
+        // This can be done in two ways
+        // 1. Iterative
         // 2. Recursion
         /* fact = 1;
         if (n==0||n==1) {
