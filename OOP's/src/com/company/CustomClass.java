@@ -16,7 +16,7 @@ import java.util.*;
         System.out.println(id + ", " + name);
     }
 }
-public class CustomClass {
+ public class CustomClass {
     public static void main(String[] args) {
 
         //initialize
