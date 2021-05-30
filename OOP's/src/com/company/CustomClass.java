@@ -6,13 +6,13 @@ import java.util.*;
     String name;
     int salary;
 
-    // get salary
+    // print salary
     public void getSalary() {
         System.out.println(salary);
     }
 
     //print details
-    public void printDetails() {
+    public void getDetails() {
         System.out.println(id + ", " + name);
     }
 }
@@ -31,11 +31,11 @@ import java.util.*;
         e1.name = "Jhon";
         e1.salary = 13452;
 
-        // print
-        e.printDetails();
-        e1.printDetails();
+        // calls getDetails
+        e.getDetails();
+        e1.getDetails();
 
-        //get
+        // calls getSalary
         e1.getSalary();
         e.getSalary();
     }
