@@ -31,6 +31,7 @@ public class AcessMod {
 
         e1.setName("James");
         System.out.println(e1.getName());
-
+        e1.setId(192);
+        System.out.println(e1.getId());
     }
 }
