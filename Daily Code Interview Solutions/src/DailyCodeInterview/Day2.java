@@ -18,7 +18,7 @@ public class Day2 {
         for (int i=0; i<n; i++) {
             int prod =1;
             for (int j=0; j<n; j++) {
-                while (j!=i) {
+               if (j!=i) {
                     prod = arr[j] * prod;
                 }
             }
