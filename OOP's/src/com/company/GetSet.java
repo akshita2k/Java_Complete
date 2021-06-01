@@ -17,13 +17,21 @@ class emp3 {
     public int getId() {
         return id;
     }
-  /*  public emp3() {
+    public emp3() {
         id = 31;
         name = "Your name";
-    } */
+    }
     public emp3 (String myname, int n) {
         id= n;
         name = myname;
+    }
+    public emp3 (String myname) {
+        id= 0;
+        name = myname;
+    }
+    public emp3 (int n) {
+        id= n;
+        name = "Your-name";
     }
 }
 
