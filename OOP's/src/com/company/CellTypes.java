@@ -18,6 +18,7 @@ public class CellTypes {
         System.out.println("Enter the state of Cellphone");
         System.out.println("0 for on Ringer, 1 for Vibration");
         int state = sc.nextInt();
+        String name = sc.nextLine();
         if (state==0) {
             c1.Ring();
         }
